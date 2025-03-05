@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "",
+		"end": "Bonjour, je m'appelle",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Nourgo Coulibaly.",
+		"usp": "Je conçois et construis des expériences qui ont du sens."
+	},
+
+	"paragraph": "Je suis un polymathe numérique - un créateur numérique en constante évolution, animé par une passion pour l'apprentissage tout au long de la vie et le désir de laisser un impact durable.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contactez-moi",
+			"url": "",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "",
+			"leaveSite": "true"
+		}
+	}
+}
