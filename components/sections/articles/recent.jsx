@@ -17,7 +17,7 @@ export default function Recent({ mediumArticles }) {
 		<Section classProp="borderBottom">
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Recent Articles"
+					title="Articles Recents"
 					preTitle="Informative"
 					subTitle="A personal quest to become a better creative writer."
 				/>

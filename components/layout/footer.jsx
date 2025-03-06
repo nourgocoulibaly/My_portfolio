@@ -33,6 +33,7 @@ export default function Footer() {
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				
 				<section className={css.sections}>
+			
 					<ul className={css.thanks}>
 						<li><h4>Remerciements</h4></li>
 						{
@@ -58,7 +59,7 @@ export default function Footer() {
 							)
 						})
 						}
-					</ul>
+					</ul> 
 					<ul className={css.social}>
 						<li><h4>Social Média</h4></li>
 						<li className={css.socialList}>

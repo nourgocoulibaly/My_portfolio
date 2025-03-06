@@ -5,14 +5,10 @@
 	},
 	{
 		"url": "/case-studies",
-		"title": "Étude de cas"
+		"title": "Portfolio"
 	},
 	{
 		"url": "/articles",
 		"title": "Articles"
-	},
-	{
-		"url": "/projects",
-		"title": "Projets"
 	}
 ]
