@@ -137,26 +137,12 @@ export default function Navbar() {
 				<li className={css.menuHeader}>
 					<Link className={css.logo} href="/">
 						<Image 
-							src={settings.logo} 
-							alt={`${settings.name} logo`}
-							width="200"
-							height="60"
-							style={{
-								// borderRadius: '50%',
-								// objectFit: 'cover',
-								marginLeft: '15px',
-								// transition: 'transform 0.2s ease',
-								'@media (max-width: 768px)': {  // Style pour mobile
-									width: '105px',
-									height: '40px',
-									margin: '25px'
-								},
-								'@media (max-width: 375px)': {  // Style pour mobile
-									width: '95px',
-									height: '35px',
-									margin: '25px'
-								}
-							}}
+							src="/img/logos/logo.png"
+							alt="Logo"
+							width={200}
+							height={60}
+							priority
+							// style={{marginLeft: '15px'}}
 						/>
 					</Link>
 					<button onClick={toggleMenu} className={css.mobileToggle} data-open={menuState}>
