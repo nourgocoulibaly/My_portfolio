@@ -6,7 +6,6 @@
   <br><br>
 </div>
 
-<img src="https://www.andrewnelson.net/img/preview.png">
 
 ## Updates
 #### Dev Update — July 6th, 2023 🥰
