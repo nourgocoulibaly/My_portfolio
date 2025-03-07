@@ -3,6 +3,7 @@ import { useCallback } from 'react'
 import {useRouter} from 'next/router';
 import Link from 'next/link'
 import ThemeMode from '../utils/theme.util'
+import Image from 'next/image'
 
 import settings from '../../content/_settings.json'
 import content  from '../../content/navbar.json'
@@ -135,16 +136,16 @@ export default function Navbar() {
 			<ul className={css.menu}>
 				<li className={css.menuHeader}>
 					<Link className={css.logo} href="/">
-						<img 
+						<Image 
 							src={settings.logo} 
 							alt={`${settings.name} logo`}
 							width="200"
-							height="75"
+							height="60"
 							style={{
 								// borderRadius: '50%',
-								objectFit: 'cover',
-								marginLeft: '25px',
-								transition: 'transform 0.2s ease',
+								// objectFit: 'cover',
+								marginLeft: '15px',
+								// transition: 'transform 0.2s ease',
 								'@media (max-width: 768px)': {  // Style pour mobile
 									width: '105px',
 									height: '40px',
