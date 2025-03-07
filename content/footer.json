@@ -1,0 +1,51 @@
+{
+	"acknowledgments": [
+		{ 
+			"person": "Portfolio",
+			"link": "/portfolio",
+			"note": "Découvrez mon portfolio"
+		},
+		{ 
+			"person": "Articles",
+			"link": "/articles",
+			"note": "Découvrez mes articles"
+		},
+		{ 
+			"person": "Mes Cours",
+			"link": "/formations",
+			"note": "Suivez mes cours gratuits"
+		}
+	],
+
+	"links": [
+		{ 
+			"person": "Boostup Digital Solutions",
+			"link": "boostup-project",
+			"note": ""
+		},
+		{ 
+			"person": "Yoori Link",
+			"link": "/yoori-project",
+			"note": ""
+		}
+	],
+
+	"social": [
+		{
+			"url": "https://www.behance.net/nourgocouliba",
+			"icon": "behance"
+		},
+		{
+			"url": "",
+			"icon": "dev"
+		},
+		{
+			"url": "https://www.linkedin.com/in/nourgo-fantiele-coulibaly-ab54aa339/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/nourgocoulibaly",
+			"icon": "github"
+		}
+	]
+}
