@@ -34,7 +34,7 @@ export default function About() {
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<Image src="/img/.jpg" width={600} height={800} alt="Nourgo Coulibaly photo"/>
+						<Image src="/img/photo.png" width={600} height={800} alt="Nourgo Coulibaly photo"/>
 					</div>
 					<div className={about.copy} >
 						<CopyBlock 
@@ -42,7 +42,7 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="En plus de mon expertise en conception et en technique, j'ai également de solides compétences en leadership, en gestion du temps et en multitâche, affinées grâce à mon expérience en tant que propriétaire d'entreprise / associé directeur, mari et père de deux enfants. En dehors du travail, j'aime rester active grâce à des sports comme le hockey et la planche à neige. J'ai confiance en ma capacité à apporter passion et valeur à n'importe quel projet."
+							copy="En plus de mon expertise en conception et en technique, j'ai également de solides compétences en leadership, en gestion du temps et en multitâche, affinées grâce à mon expérience. J'ai confiance en ma capacité à apporter passion et valeur à n'importe quel projet."
 						/>
 						<BadgesBlock 
 							title="Recherche et planification" 

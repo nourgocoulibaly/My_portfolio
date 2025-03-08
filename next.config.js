@@ -1,4 +1,13 @@
-module.exports = {
+const withMDX = require('@next/mdx')({
+	extension: /\.mdx?$/,
+	options: {
+		remarkPlugins: [],
+		rehypePlugins: [],
+	},
+})
+
+module.exports = withMDX({
+	pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
 	reactStrictMode: true,
 	env: {
 		dir: '/',
@@ -36,5 +45,6 @@ module.exports = {
 				pathname: '/**'
 			},
 		],
+		domains: ['placeholder-course.jpg'],
 	},
-}
+})
