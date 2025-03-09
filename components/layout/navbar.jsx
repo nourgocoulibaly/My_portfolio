@@ -14,6 +14,7 @@ export default function Navbar() {
 	const router = useRouter()
 
 	const [ menuState, menuToggle ] = useState()
+	const [isLightTheme, setIsLightTheme] = useState(false)
 
 	useEffect( () => {
 		menuToggle(false)
@@ -126,6 +127,23 @@ export default function Navbar() {
 		}
 	}, [] )
 
+	useEffect(() => {
+		const handleThemeChange = () => {
+			updateTheme(document.body.classList.contains('light-theme'))
+		}
+
+		// Supposons que vous ayez un événement global ou un contexte pour le changement de thème
+		window.addEventListener('themeChange', handleThemeChange)
+
+		return () => {
+			window.removeEventListener('themeChange', handleThemeChange)
+		}
+	}, [])
+
+	const updateTheme = (isLight) => {
+		setIsLightTheme(isLight)
+	}
+
 	const toggleMenu = () => {
 		let bool = ! menuState
 		menuToggle(bool)
@@ -137,12 +155,11 @@ export default function Navbar() {
 				<li className={css.menuHeader}>
 					<Link className={css.logo} href="/">
 						<Image 
-							src="/img/logos/logo.png"
+							src={isLightTheme ? "/img/logos/logo_black.png" : "/img/logos/logo.png"}
 							alt="Logo"
 							width={200}
 							height={60}
 							priority
-							// style={{marginLeft: '15px'}}
 						/>
 					</Link>
 					<button onClick={toggleMenu} className={css.mobileToggle} data-open={menuState}>

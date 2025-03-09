@@ -23,7 +23,8 @@ import '../node_modules/devicon/devicon.min.css'
 
 // Global css
 import '../styles/css/variables.css'
-import '../styles/css/global.css'
+import '../styles/css/global.css'   // Styles généraux
+import '../styles/globals.scss'
 
 /**
  * _app.jsx
